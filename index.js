@@ -43,8 +43,10 @@ const argv = program.opts();
     }
 
 
-console.table(argv);
+//console.table(argv);
 invokeAction(argv);
+
+//invokeAction({action: "add"})
 
 // # Получаем и выводим весь список контактов в виде таблицы (console.table)
 // node index.js --action list
